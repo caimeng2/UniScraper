@@ -104,3 +104,11 @@ def paragraph_from_url(url, search_string):
     para = paragraph_from_text(eng_text, search_string)
     return para
 
+class uniscraper(object):
+    def __init__(self, url):
+        self.url = url
+        self.text = text_from_url(url)
+        self.english = remove_non_eng(self.text)
+    def search(self, string):
+        self.para = paragraph_from_text(self.english, string)
+        return self.para
