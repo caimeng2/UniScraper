@@ -149,5 +149,5 @@ class uniscraper(object):
         self.text = text_from_url(url)
         self.english = remove_non_eng(self.text)
     def search(self, string):
-        self.para = paragraph_from_text(self.english, string)
+        self.para = paragraph_from_text(self.text, string)
         return self.para
