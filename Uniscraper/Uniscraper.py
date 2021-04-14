@@ -1,29 +1,21 @@
 """A scraper that extracts text from multiple types of webpages, including html, pdf, word documents, presentation slides, and spreadsheets"""
-
+import io
+import csv
+import time
 import pandas as pd
-import numpy as np
-import re
-from ast import literal_eval
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
-import urllib.request
-import time
 import nltk
-import csv
-
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
-
-import io
+from webdriver_manager.chrome import ChromeDriverManager
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.layout import LAParams
 from pdfminer.converter import TextConverter
 from pdfminer.pdfpage import PDFPage
 import docx
 from pptx import Presentation
-import openpyxl
 
 options = Options()
 options.add_argument('--headless')
@@ -67,13 +59,13 @@ def ppt_to_text(ppt_file):
             if hasattr(shape, "text"):
                 text.append(shape.text)
     return " ".join(text)
-    
+
 def excel_to_text(excel_file):
     """Extract text from spreadsheets"""
     data = pd.ExcelFile(excel_file)
     text = []
     for i in range(len(data.sheet_names)):
-        sheet = data.parse(data.sheet_names[i])    
+        sheet = data.parse(data.sheet_names[i])
         for content in sheet.values.tolist():
             text.append(content[0])
     return "\n\n".join(text)
@@ -107,10 +99,10 @@ def text_from_url(url):
             excel_memory_file.write(req.content)
             text = excel_to_text(excel_memory_file)
         else:
-            csv.writer(open("error.csv", "a")).writerow(["Unsupported content type: ", req.headers["Content-Type"],url])
+            csv.writer(open("error.csv", "a")).writerow(["Unsupported content type: ", req.headers["Content-Type"], url])
             text = ""
-    except Exception as e:
-        csv.writer(open("error.csv", "a")).writerow([e,url])
+    except Exception as err:
+        csv.writer(open("error.csv", "a")).writerow([err, url])
         text = ""
     return text
 
@@ -142,12 +134,14 @@ def paragraph_from_text(text, search_string):
     para_str = " ".join(para)
     return para_str
 
-class uniscraper(object):
+class uniscraper():
     """A scraper that works with multiple types of webpages"""
     def __init__(self, url):
         self.url = url
         self.text = text_from_url(url)
         self.english = remove_non_eng(self.text)
+        self.para = None
     def search(self, string):
+        """Search text for a keyword"""
         self.para = paragraph_from_text(self.text, string)
         return self.para
