@@ -1,4 +1,4 @@
-"""A scraper that works with multiple types of webpages, including html, pdf, word documents, presentation slides, and spreedsheets"""
+"""A scraper that extracts text from multiple types of webpages, including html, pdf, word documents, presentation slides, and spreadsheets"""
 
 import pandas as pd
 import numpy as np
@@ -21,6 +21,9 @@ from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.layout import LAParams
 from pdfminer.converter import TextConverter
 from pdfminer.pdfpage import PDFPage
+import docx
+from pptx import Presentation
+import openpyxl
 
 options = Options()
 options.add_argument('--headless')
@@ -46,6 +49,35 @@ def pdf_to_text(pdf_file):
     text_memory_file.close()
     return text
 
+def doc_to_text(doc_file):
+    """Extract text from word document"""
+    doc = docx.Document(doc_file)
+    text = []
+    for i in range(len(doc.paragraphs)):
+        para = doc.paragraphs[i]
+        text.append(para.text)
+    return "\n\n".join(text)
+
+def ppt_to_text(ppt_file):
+    """Extract text from presentation slides"""
+    ppt = Presentation(ppt_file)
+    text = []
+    for slide in ppt.slides:
+        for shape in slide.shapes:
+            if hasattr(shape, "text"):
+                text.append(shape.text)
+    return " ".join(text)
+    
+def excel_to_text(excel_file):
+    """Extract text from spreadsheets"""
+    data = pd.ExcelFile(excel_file)
+    text = []
+    for i in range(len(data.sheet_names)):
+        sheet = data.parse(data.sheet_names[i])    
+        for content in sheet.values.tolist():
+            text.append(content[0])
+    return "\n\n".join(text)
+
 def text_from_url(url):
     """Extract text from web pages"""
     try:
@@ -62,9 +94,20 @@ def text_from_url(url):
             pdf_memory_file = io.BytesIO()
             pdf_memory_file.write(req.content)
             text = pdf_to_text(pdf_memory_file)
-        elif 
+        elif 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' in req.headers["Content-Type"]:
+            word_memory_file = io.BytesIO()
+            word_memory_file.write(req.content)
+            text = doc_to_text(word_memory_file)
+        elif 'application/vnd.openxmlformats-officedocument.presentationml.presentation' in req.headers["Content-Type"]:
+            ppt_memory_file = io.BytesIO()
+            ppt_memory_file.write(req.content)
+            text = ppt_to_text(ppt_memory_file)
+        elif 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' in req.headers["Content-Type"]:
+            excel_memory_file = io.BytesIO()
+            excel_memory_file.write(req.content)
+            text = excel_to_text(excel_memory_file)
         else:
-            csv.writer(open("error.csv", "a")).writerow([req.headers["Content-Type"],url])
+            csv.writer(open("error.csv", "a")).writerow(["Unsupported content type: ", req.headers["Content-Type"],url])
             text = ""
     except Exception as e:
         csv.writer(open("error.csv", "a")).writerow([e,url])
@@ -83,8 +126,8 @@ def paragraph_from_text(text, search_string):
     found = False
     previous = ""
     para = []
+    # to extract paragraphs containing a keyword and its immediate previous and after paragraphs
     for p in split_text:
-        # to extract paragraphs containing a keyword and its immediate previous and after paragraphs
         if found:
             para.append(p)
             found = False
@@ -98,13 +141,6 @@ def paragraph_from_text(text, search_string):
     para = list(set(para)) # remove duplicates
     para_str = " ".join(para)
     return para_str
-
-def paragraph_from_url(url, search_string):
-    """Extract paragraphs from a webpage"""
-    web_text = text_from_url(url)
-    eng_text = remove_non_eng(web_text)
-    para = paragraph_from_text(eng_text, search_string)
-    return para
 
 class uniscraper(object):
     """A scraper that works with multiple types of webpages"""
