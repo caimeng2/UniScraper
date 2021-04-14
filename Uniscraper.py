@@ -1,4 +1,4 @@
-"""Get paragraphs containing a keyword with its context from a webpage"""
+"""A scraper that works with multiple types of webpages, including html, pdf, word documents, presentation slides, and spreedsheets"""
 
 import pandas as pd
 import numpy as np
@@ -62,6 +62,7 @@ def text_from_url(url):
             pdf_memory_file = io.BytesIO()
             pdf_memory_file.write(req.content)
             text = pdf_to_text(pdf_memory_file)
+        elif 
         else:
             csv.writer(open("error.csv", "a")).writerow([req.headers["Content-Type"],url])
             text = ""
@@ -77,12 +78,13 @@ def remove_non_eng(text):
     return english
 
 def paragraph_from_text(text, search_string):
-    """Extract paragraphs containing a keyword and its immediate previous and after paragraphs"""
+    """Get paragraphs containing a keyword with its context"""
     split_text = text.lower().split("\n\n")
     found = False
     previous = ""
     para = []
     for p in split_text:
+        # to extract paragraphs containing a keyword and its immediate previous and after paragraphs
         if found:
             para.append(p)
             found = False
@@ -105,6 +107,7 @@ def paragraph_from_url(url, search_string):
     return para
 
 class uniscraper(object):
+    """A scraper that works with multiple types of webpages"""
     def __init__(self, url):
         self.url = url
         self.text = text_from_url(url)
