@@ -2,9 +2,16 @@ channels:
   - defaults
 dependencies:
   - pip
+  - pdoc3
   - bs4
   - pandas
   - selenium
   - pylint
   - pytest
   - nltk
+  - requests
+  - pip:
+    - python-docx
+    - python-pptx
+    - webdriver_manager
+    - pdfminer
