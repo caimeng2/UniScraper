@@ -1,0 +1,10 @@
+channels:
+  - defaults
+dependencies:
+  - pip
+  - bs4
+  - pandas
+  - selenium
+  - pylint
+  - pytest
+  - nltk
