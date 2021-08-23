@@ -1,2 +1,3 @@
 import nltk
-nltk.download('words')
+nltk.download('words') #necessary for removing non-english text
+
