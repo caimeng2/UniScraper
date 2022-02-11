@@ -30,7 +30,11 @@ def tag_visible(element):
     return True
 
 def pdf_to_text(pdf_file):
-    """Extract text from pdf file"""
+    """
+    Extract text from pdf file
+    :param pdf_file: file to be converted
+    :return: converted pdf in string format
+    """
     text_memory_file = io.StringIO()
     rsrcmgr = PDFResourceManager()
     device = TextConverter(rsrcmgr, text_memory_file, laparams=LAParams())
