@@ -16,6 +16,13 @@ Set up a conda environment by running the following command:
 
     conda activate ./envs
 
+## Installing the environment to jupyter notebook
+
+   conda install -c anaconda ipykernel
+   python -m ipykernel install --user --name=envs
+   
+   https://moonbooks.org/Articles/How-to-use-a-specific-python-conda-environment-in-a-Jupyter-notebook-/   
+
 ## Dependency
 
 `bs4` `webdriver_manager` `pandas` `selenium` `nltk` `requests` `python-docx` `python-pptx`  `pdfminer`
