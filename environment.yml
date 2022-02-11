@@ -5,7 +5,6 @@ dependencies:
   - pdoc3
   - bs4
   - pandas
-  - selenium
   - pylint
   - pytest
   - nltk
@@ -15,3 +14,4 @@ dependencies:
     - python-pptx
     - webdriver_manager
     - pdfminer
+    - selenium
