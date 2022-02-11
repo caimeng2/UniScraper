@@ -1,0 +1,101 @@
+{
+  "build": "haa95532_3556",
+  "build_number": 3556,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\ysman\\anaconda3\\pkgs\\intel-openmp-2021.4.0-haa95532_3556",
+  "features": "",
+  "files": [
+    "Library/bin/libiomp5md.dll",
+    "Library/bin/libiomp5md.pdb",
+    "Library/bin/libiompstubs5md.dll",
+    "Library/bin/libomp-fallback-cstring.spv",
+    "Library/bin/omptarget.dll",
+    "Library/bin/omptarget.rtl.level0.dll",
+    "Library/bin/omptarget.rtl.opencl.dll",
+    "Library/lib/libomp-fallback-cstring.obj",
+    ".nonadmin"
+  ],
+  "fn": "intel-openmp-2021.4.0-haa95532_3556.conda",
+  "legacy_bz2_md5": "934b8eddc9b53284c4d133245916b153",
+  "legacy_bz2_size": 3344607,
+  "license": "LicenseRef-ProprietaryIntel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "C:\\Users\\ysman\\anaconda3\\pkgs\\intel-openmp-2021.4.0-haa95532_3556",
+    "type": 1
+  },
+  "md5": "fbc89913479fe20e07cde87c82e5147b",
+  "name": "intel-openmp",
+  "package_tarball_full_path": "C:\\Users\\ysman\\anaconda3\\pkgs\\intel-openmp-2021.4.0-haa95532_3556.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libiomp5md.dll",
+        "path_type": "hardlink",
+        "sha256": "7dbe32d07a43996afbc109d3ef0d49c3a1ab1e14b10690323f53f1f3deb76dbb",
+        "sha256_in_prefix": "7dbe32d07a43996afbc109d3ef0d49c3a1ab1e14b10690323f53f1f3deb76dbb",
+        "size_in_bytes": 1942464
+      },
+      {
+        "_path": "Library/bin/libiomp5md.pdb",
+        "path_type": "hardlink",
+        "sha256": "3f1042a3d47366572ce3642a263c5e88ded64ec9888b1c09983943ab8266b954",
+        "sha256_in_prefix": "3f1042a3d47366572ce3642a263c5e88ded64ec9888b1c09983943ab8266b954",
+        "size_in_bytes": 4329472
+      },
+      {
+        "_path": "Library/bin/libiompstubs5md.dll",
+        "path_type": "hardlink",
+        "sha256": "b4ffd306ea4e35916d5b7aa5c66a74f46eab6cc0e75ef16862120e27caa78b78",
+        "sha256_in_prefix": "b4ffd306ea4e35916d5b7aa5c66a74f46eab6cc0e75ef16862120e27caa78b78",
+        "size_in_bytes": 39872
+      },
+      {
+        "_path": "Library/bin/libomp-fallback-cstring.spv",
+        "path_type": "hardlink",
+        "sha256": "e595abaadd926dbfb726267ec81b833fcd41f93bf3002d1853219be2898fa0db",
+        "sha256_in_prefix": "e595abaadd926dbfb726267ec81b833fcd41f93bf3002d1853219be2898fa0db",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "Library/bin/omptarget.dll",
+        "path_type": "hardlink",
+        "sha256": "af926624ddb2ac726aa3c5cae6ccd4141c1398e8c1cef2ea0340084cc9012810",
+        "sha256_in_prefix": "af926624ddb2ac726aa3c5cae6ccd4141c1398e8c1cef2ea0340084cc9012810",
+        "size_in_bytes": 671680
+      },
+      {
+        "_path": "Library/bin/omptarget.rtl.level0.dll",
+        "path_type": "hardlink",
+        "sha256": "90e7674d49a1df52f7c367e15e48b32a80bac0aec6da02a231efc189cbd94fda",
+        "sha256_in_prefix": "90e7674d49a1df52f7c367e15e48b32a80bac0aec6da02a231efc189cbd94fda",
+        "size_in_bytes": 1460160
+      },
+      {
+        "_path": "Library/bin/omptarget.rtl.opencl.dll",
+        "path_type": "hardlink",
+        "sha256": "544975620277c9586171957947f6104fea4e63fba414497b2dbd677a0a134ba2",
+        "sha256_in_prefix": "544975620277c9586171957947f6104fea4e63fba414497b2dbd677a0a134ba2",
+        "size_in_bytes": 1522616
+      },
+      {
+        "_path": "Library/lib/libomp-fallback-cstring.obj",
+        "path_type": "hardlink",
+        "sha256": "c1140cfd0076512fe907cdab74bcc36cc311f449db167a0f9cfd7d438b3b3afc",
+        "sha256_in_prefix": "c1140cfd0076512fe907cdab74bcc36cc311f449db167a0f9cfd7d438b3b3afc",
+        "size_in_bytes": 9359
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ea8d648ebf09966094ec99fbb22cc0ade4e235a33d602c1b73c39a049d30380a",
+  "size": 2271298,
+  "subdir": "win-64",
+  "timestamp": 1634546794852,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/intel-openmp-2021.4.0-haa95532_3556.conda",
+  "version": "2021.4.0"
+}

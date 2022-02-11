@@ -1,0 +1,182 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "C:\\Users\\ysman\\anaconda3\\pkgs\\colorama-0.4.4-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/colorama-0.4.4.dist-info/INSTALLER",
+    "Lib/site-packages/colorama-0.4.4.dist-info/LICENSE.txt",
+    "Lib/site-packages/colorama-0.4.4.dist-info/METADATA",
+    "Lib/site-packages/colorama-0.4.4.dist-info/RECORD",
+    "Lib/site-packages/colorama-0.4.4.dist-info/REQUESTED",
+    "Lib/site-packages/colorama-0.4.4.dist-info/WHEEL",
+    "Lib/site-packages/colorama-0.4.4.dist-info/direct_url.json",
+    "Lib/site-packages/colorama-0.4.4.dist-info/top_level.txt",
+    "Lib/site-packages/colorama/__init__.py",
+    "Lib/site-packages/colorama/ansi.py",
+    "Lib/site-packages/colorama/ansitowin32.py",
+    "Lib/site-packages/colorama/initialise.py",
+    "Lib/site-packages/colorama/win32.py",
+    "Lib/site-packages/colorama/winterm.py",
+    ".nonadmin",
+    "Lib/site-packages/colorama/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/colorama/__pycache__/ansi.cpython-37.pyc",
+    "Lib/site-packages/colorama/__pycache__/ansitowin32.cpython-37.pyc",
+    "Lib/site-packages/colorama/__pycache__/initialise.cpython-37.pyc",
+    "Lib/site-packages/colorama/__pycache__/win32.cpython-37.pyc",
+    "Lib/site-packages/colorama/__pycache__/winterm.cpython-37.pyc"
+  ],
+  "fn": "colorama-0.4.4-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "e1f1311b37041e7a099a7a3c09106a13",
+  "legacy_bz2_size": 21360,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\ysman\\anaconda3\\pkgs\\colorama-0.4.4-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "f550604d18b83878f647a491b2b343d6",
+  "name": "colorama",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\ysman\\anaconda3\\pkgs\\colorama-0.4.4-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/colorama-0.4.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/colorama-0.4.4.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318",
+        "sha256_in_prefix": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318",
+        "size_in_bytes": 1491
+      },
+      {
+        "_path": "site-packages/colorama-0.4.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a8b29d3dcb28d75fb810e79b7722c8998fced98f3bcad398385befc5e009d10c",
+        "sha256_in_prefix": "a8b29d3dcb28d75fb810e79b7722c8998fced98f3bcad398385befc5e009d10c",
+        "size_in_bytes": 14952
+      },
+      {
+        "_path": "site-packages/colorama-0.4.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c3fbac25db493080ac9049da36b83622efd5648c5a11f5d3ab25136a5407bfcc",
+        "sha256_in_prefix": "c3fbac25db493080ac9049da36b83622efd5648c5a11f5d3ab25136a5407bfcc",
+        "size_in_bytes": 1425
+      },
+      {
+        "_path": "site-packages/colorama-0.4.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/colorama-0.4.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a21d0d298ad372ed62d7ec20ac8d5c9e19236088bc589fbca9df49aebe7fcb81",
+        "sha256_in_prefix": "a21d0d298ad372ed62d7ec20ac8d5c9e19236088bc589fbca9df49aebe7fcb81",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/colorama-0.4.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8eb134fa71e3068a8d4cba7a0637014e0be1d2b44d81ab6314a74dc771d3a7b7",
+        "sha256_in_prefix": "8eb134fa71e3068a8d4cba7a0637014e0be1d2b44d81ab6314a74dc771d3a7b7",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/colorama-0.4.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fcac7af829e2d814f53c40133e1ad2471a3477b91281f05b1dfe68ec8175001c",
+        "sha256_in_prefix": "fcac7af829e2d814f53c40133e1ad2471a3477b91281f05b1dfe68ec8175001c",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/colorama/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a42744aebcb32d2cc35b93fead13c194f2ea6c1b4844d241e9c320a1e267b399",
+        "sha256_in_prefix": "a42744aebcb32d2cc35b93fead13c194f2ea6c1b4844d241e9c320a1e267b399",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "site-packages/colorama/ansi.py",
+        "path_type": "hardlink",
+        "sha256": "4e8a7811e12e69074159db5e28c11c18e4de29e175f50f96a3febf0a3e643b34",
+        "sha256_in_prefix": "4e8a7811e12e69074159db5e28c11c18e4de29e175f50f96a3febf0a3e643b34",
+        "size_in_bytes": 2522
+      },
+      {
+        "_path": "site-packages/colorama/ansitowin32.py",
+        "path_type": "hardlink",
+        "sha256": "c95ec212609bd7d3239c928e0d9104bcc1ff7e76c98709e9ce8e2cc59b865e60",
+        "sha256_in_prefix": "c95ec212609bd7d3239c928e0d9104bcc1ff7e76c98709e9ce8e2cc59b865e60",
+        "size_in_bytes": 10517
+      },
+      {
+        "_path": "site-packages/colorama/initialise.py",
+        "path_type": "hardlink",
+        "sha256": "3e9ae8bc3371313aefa0d1c570bd8d663a47d97cc373c04bc4bc6212b7d49789",
+        "sha256_in_prefix": "3e9ae8bc3371313aefa0d1c570bd8d663a47d97cc373c04bc4bc6212b7d49789",
+        "size_in_bytes": 1915
+      },
+      {
+        "_path": "site-packages/colorama/win32.py",
+        "path_type": "hardlink",
+        "sha256": "6c9f0897d8f0681379049f1b98de85a18675418b8c2afda3f1f1ab5e1ed3263c",
+        "sha256_in_prefix": "6c9f0897d8f0681379049f1b98de85a18675418b8c2afda3f1f1ab5e1ed3263c",
+        "size_in_bytes": 5404
+      },
+      {
+        "_path": "site-packages/colorama/winterm.py",
+        "path_type": "hardlink",
+        "sha256": "db2ff66fb66cbf7e1f780b0febb98b39573e060ab9d667581a8e7bd55a6b96b3",
+        "sha256_in_prefix": "db2ff66fb66cbf7e1f780b0febb98b39573e060ab9d667581a8e7bd55a6b96b3",
+        "size_in_bytes": 6438
+      },
+      {
+        "_path": "Lib/site-packages/colorama/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/colorama/__pycache__/ansi.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/colorama/__pycache__/ansitowin32.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/colorama/__pycache__/initialise.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/colorama/__pycache__/win32.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/colorama/__pycache__/winterm.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2224b228e6d511f11b6d76ed95107b4ea79f3d58939b8638b78485d205d38140",
+  "size": 21236,
+  "subdir": "noarch",
+  "timestamp": 1607707149014,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/colorama-0.4.4-pyhd3eb1b0_0.conda",
+  "version": "0.4.4"
+}

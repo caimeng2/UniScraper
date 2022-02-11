@@ -1,0 +1,811 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "mako",
+    "markdown >=3.0",
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "C:\\Users\\ysman\\anaconda3\\pkgs\\pdoc3-0.9.2-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pdoc/__init__.py",
+    "Lib/site-packages/pdoc/__main__.py",
+    "Lib/site-packages/pdoc/_version.py",
+    "Lib/site-packages/pdoc/cli.py",
+    "Lib/site-packages/pdoc/documentation.md",
+    "Lib/site-packages/pdoc/html_helpers.py",
+    "Lib/site-packages/pdoc/templates/_lunr_search.inc.mako",
+    "Lib/site-packages/pdoc/templates/config.mako",
+    "Lib/site-packages/pdoc/templates/credits.mako",
+    "Lib/site-packages/pdoc/templates/css.mako",
+    "Lib/site-packages/pdoc/templates/head.mako",
+    "Lib/site-packages/pdoc/templates/html.mako",
+    "Lib/site-packages/pdoc/templates/logo.mako",
+    "Lib/site-packages/pdoc/templates/pdf.mako",
+    "Lib/site-packages/pdoc/templates/search.mako",
+    "Lib/site-packages/pdoc/templates/text.mako",
+    "Lib/site-packages/pdoc/test/__init__.py",
+    "Lib/site-packages/pdoc/test/__main__.py",
+    "Lib/site-packages/pdoc/test/css.mako",
+    "Lib/site-packages/pdoc/test/example_pkg/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_exclude_dir/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_exclude_dir/downloaded_modules/foo.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_imported_once.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/1/a/a/util.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/1/b/a/main.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/a/a/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/a/a/util.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/b/a/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/b/a/main.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/a/a/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/a/a/util.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/b/a/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/b/a/main.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_private/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_private/_private.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_private/module.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_reST_include/_include_me.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_reST_include/test.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_relative_import/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_relative_import/foo.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_resolve_typing_forwardrefs/evaluated.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_resolve_typing_forwardrefs/postponed.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_skip_errors/unimportable.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_test_linking/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_test_linking/a.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_test_linking/b/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/_test_linking/b/c.py",
+    "Lib/site-packages/pdoc/test/example_pkg/index.py",
+    "Lib/site-packages/pdoc/test/example_pkg/module.py",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg/_private.py",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg2/__init__.py",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg2/_private.py",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg2/module.py",
+    "Lib/site-packages/pdoc/test/html.mako",
+    "Lib/site-packages/pdoc3-0.9.2.dist-info/INSTALLER",
+    "Lib/site-packages/pdoc3-0.9.2.dist-info/LICENSE.txt",
+    "Lib/site-packages/pdoc3-0.9.2.dist-info/METADATA",
+    "Lib/site-packages/pdoc3-0.9.2.dist-info/RECORD",
+    "Lib/site-packages/pdoc3-0.9.2.dist-info/REQUESTED",
+    "Lib/site-packages/pdoc3-0.9.2.dist-info/WHEEL",
+    "Lib/site-packages/pdoc3-0.9.2.dist-info/direct_url.json",
+    "Lib/site-packages/pdoc3-0.9.2.dist-info/entry_points.txt",
+    "Lib/site-packages/pdoc3-0.9.2.dist-info/top_level.txt",
+    "Lib/site-packages/test_mod/__init__.py",
+    "Lib/site-packages/test_mod/a.py",
+    ".nonadmin",
+    "Lib/site-packages/pdoc/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/__pycache__/__main__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/__pycache__/_version.cpython-37.pyc",
+    "Lib/site-packages/pdoc/__pycache__/cli.cpython-37.pyc",
+    "Lib/site-packages/pdoc/__pycache__/html_helpers.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/__pycache__/__main__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_exclude_dir/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_exclude_dir/downloaded_modules/__pycache__/foo.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/__pycache__/_imported_once.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/1/a/a/__pycache__/util.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/1/b/a/__pycache__/main.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/a/a/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/a/a/__pycache__/util.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/b/a/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/b/a/__pycache__/main.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/a/a/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/a/a/__pycache__/util.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/b/a/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/b/a/__pycache__/main.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_private/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_private/__pycache__/_private.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_private/__pycache__/module.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_reST_include/__pycache__/_include_me.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_reST_include/__pycache__/test.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_relative_import/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_relative_import/__pycache__/foo.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_resolve_typing_forwardrefs/__pycache__/evaluated.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_resolve_typing_forwardrefs/__pycache__/postponed.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_skip_errors/__pycache__/unimportable.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_test_linking/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_test_linking/__pycache__/a.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_test_linking/b/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/_test_linking/b/__pycache__/c.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/__pycache__/index.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/__pycache__/module.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg/__pycache__/_private.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg2/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg2/__pycache__/_private.cpython-37.pyc",
+    "Lib/site-packages/pdoc/test/example_pkg/subpkg2/__pycache__/module.cpython-37.pyc",
+    "Lib/site-packages/test_mod/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/test_mod/__pycache__/a.cpython-37.pyc",
+    "Scripts/pdoc-script.py",
+    "Scripts/pdoc3-script.py",
+    "Scripts/pdoc.exe",
+    "Scripts/pdoc3.exe"
+  ],
+  "fn": "pdoc3-0.9.2-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "8f8dbd9481221dce9b2a70eb69272b93",
+  "legacy_bz2_size": 82555,
+  "license": "GNU Affero General Public v3 or later (AGPLv3+)",
+  "license_family": "AGPL",
+  "link": {
+    "source": "C:\\Users\\ysman\\anaconda3\\pkgs\\pdoc3-0.9.2-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "fcd7f423eb7fe7776e08465ec225059d",
+  "name": "pdoc3",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\ysman\\anaconda3\\pkgs\\pdoc3-0.9.2-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pdoc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8f8943f1f23d28ac237857fdbf637d96a697c6d9c7535c69b28fe8f21ce70f39",
+        "sha256_in_prefix": "8f8943f1f23d28ac237857fdbf637d96a697c6d9c7535c69b28fe8f21ce70f39",
+        "size_in_bytes": 58849
+      },
+      {
+        "_path": "site-packages/pdoc/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "48e07633e9011f5015b1a511a1b726453cf9e85d6601b2f9fd5e5cf0b74001c2",
+        "sha256_in_prefix": "48e07633e9011f5015b1a511a1b726453cf9e85d6601b2f9fd5e5cf0b74001c2",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "site-packages/pdoc/_version.py",
+        "path_type": "hardlink",
+        "sha256": "ea11347b0d2375ca647c07a05491b5b31db6f1dd6f91443275137399a2a0aa6b",
+        "sha256_in_prefix": "ea11347b0d2375ca647c07a05491b5b31db6f1dd6f91443275137399a2a0aa6b",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/pdoc/cli.py",
+        "path_type": "hardlink",
+        "sha256": "bdfcedd98bb05aebaf442b6f5eff8c6b87ded91bb21f10517cbe749ec123864c",
+        "sha256_in_prefix": "bdfcedd98bb05aebaf442b6f5eff8c6b87ded91bb21f10517cbe749ec123864c",
+        "size_in_bytes": 19947
+      },
+      {
+        "_path": "site-packages/pdoc/documentation.md",
+        "path_type": "hardlink",
+        "sha256": "a872783fd3b464bb06a5b72654617a08b0fb387c4d607382e5d49246d9c12b38",
+        "sha256_in_prefix": "a872783fd3b464bb06a5b72654617a08b0fb387c4d607382e5d49246d9c12b38",
+        "size_in_bytes": 13866
+      },
+      {
+        "_path": "site-packages/pdoc/html_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "a69a99fa4bf6eae312d3f9b92c1881796a724f1abc6498766d16e13232ffca11",
+        "sha256_in_prefix": "a69a99fa4bf6eae312d3f9b92c1881796a724f1abc6498766d16e13232ffca11",
+        "size_in_bytes": 25219
+      },
+      {
+        "_path": "site-packages/pdoc/templates/_lunr_search.inc.mako",
+        "path_type": "hardlink",
+        "sha256": "92a66aa4a04e24df2c8b60529096215aad4e5cacce3120685e85c419de2dfcbf",
+        "sha256_in_prefix": "92a66aa4a04e24df2c8b60529096215aad4e5cacce3120685e85c419de2dfcbf",
+        "size_in_bytes": 1979
+      },
+      {
+        "_path": "site-packages/pdoc/templates/config.mako",
+        "path_type": "hardlink",
+        "sha256": "e25bf967dad963b3e1bd7767a29fb0d3f28c442d23f52338a7dc80f2fadee1eb",
+        "sha256_in_prefix": "e25bf967dad963b3e1bd7767a29fb0d3f28c442d23f52338a7dc80f2fadee1eb",
+        "size_in_bytes": 3082
+      },
+      {
+        "_path": "site-packages/pdoc/templates/credits.mako",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pdoc/templates/css.mako",
+        "path_type": "hardlink",
+        "sha256": "7a3a75a0c9aa0b540c440658bf826284255e199c88265ae7f8877be706e381ee",
+        "sha256_in_prefix": "7a3a75a0c9aa0b540c440658bf826284255e199c88265ae7f8877be706e381ee",
+        "size_in_bytes": 7365
+      },
+      {
+        "_path": "site-packages/pdoc/templates/head.mako",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pdoc/templates/html.mako",
+        "path_type": "hardlink",
+        "sha256": "9eb1b858d5d98a7f242abbf32e8e118fcd403fc2660fc9f8b69d1798bf4f2aa7",
+        "sha256_in_prefix": "9eb1b858d5d98a7f242abbf32e8e118fcd403fc2660fc9f8b69d1798bf4f2aa7",
+        "size_in_bytes": 13810
+      },
+      {
+        "_path": "site-packages/pdoc/templates/logo.mako",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pdoc/templates/pdf.mako",
+        "path_type": "hardlink",
+        "sha256": "c6dc02b4d8b9c5cece04271fe624c72414cb4c7324da119f7e41d846e78854bd",
+        "sha256_in_prefix": "c6dc02b4d8b9c5cece04271fe624c72414cb4c7324da119f7e41d846e78854bd",
+        "size_in_bytes": 5013
+      },
+      {
+        "_path": "site-packages/pdoc/templates/search.mako",
+        "path_type": "hardlink",
+        "sha256": "951f7be0936bd3d4977fd0f9f1d1fdb3c2c11d3b62b49d6a50881f31edd64576",
+        "sha256_in_prefix": "951f7be0936bd3d4977fd0f9f1d1fdb3c2c11d3b62b49d6a50881f31edd64576",
+        "size_in_bytes": 5256
+      },
+      {
+        "_path": "site-packages/pdoc/templates/text.mako",
+        "path_type": "hardlink",
+        "sha256": "2bedf6872bb32dca51827ca412ef5f2a3ab55a4e4eeb20e3c0eecb09bdfe8a04",
+        "sha256_in_prefix": "2bedf6872bb32dca51827ca412ef5f2a3ab55a4e4eeb20e3c0eecb09bdfe8a04",
+        "size_in_bytes": 2839
+      },
+      {
+        "_path": "site-packages/pdoc/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5caf51557c0826241e853047d6d173051d733cb43990c2657b1845c7894f0ca4",
+        "sha256_in_prefix": "5caf51557c0826241e853047d6d173051d733cb43990c2657b1845c7894f0ca4",
+        "size_in_bytes": 61548
+      },
+      {
+        "_path": "site-packages/pdoc/test/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "8a12d685905ecbd9c3aae138109b2b846f007e51ef22ef077dfec11350bb6422",
+        "sha256_in_prefix": "8a12d685905ecbd9c3aae138109b2b846f007e51ef22ef077dfec11350bb6422",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/pdoc/test/css.mako",
+        "path_type": "hardlink",
+        "sha256": "469acc1aa113983bf6daadbb6ed5c2dcd7529fe11ec3a4e6960d590c8d67b8e8",
+        "sha256_in_prefix": "469acc1aa113983bf6daadbb6ed5c2dcd7529fe11ec3a4e6960d590c8d67b8e8",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_exclude_dir/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+        "sha256_in_prefix": "9f56e761d79bfdb34304a012586cb04d16b435ef6130091a97702e559260a2f2",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_exclude_dir/downloaded_modules/foo.py",
+        "path_type": "hardlink",
+        "sha256": "5c1566fa9abbb2e77ea4cd9473b2c0993e8a949f5a34b126517a3cfabebcd9f0",
+        "sha256_in_prefix": "5c1566fa9abbb2e77ea4cd9473b2c0993e8a949f5a34b126517a3cfabebcd9f0",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_imported_once.py",
+        "path_type": "hardlink",
+        "sha256": "99942e83af8a7575bd04a68c3613ce6b6ea4a022ff9c36b47230bf1fddd7449b",
+        "sha256_in_prefix": "99942e83af8a7575bd04a68c3613ce6b6ea4a022ff9c36b47230bf1fddd7449b",
+        "size_in_bytes": 178
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/1/a/a/util.py",
+        "path_type": "hardlink",
+        "sha256": "b4cca9e87cf330ccc9adb7a82823125c03d70aca1793591d3d6d5cac0a5acb35",
+        "sha256_in_prefix": "b4cca9e87cf330ccc9adb7a82823125c03d70aca1793591d3d6d5cac0a5acb35",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/1/b/a/main.py",
+        "path_type": "hardlink",
+        "sha256": "542fcb75eaa7503ba94b293eb847f7184c2ded699dfa738c99cdc3d1f37ce96f",
+        "sha256_in_prefix": "542fcb75eaa7503ba94b293eb847f7184c2ded699dfa738c99cdc3d1f37ce96f",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/2/a/a/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8efd9817ffdbb1e9254f739613396a279a84db8738696779178af44d38cead64",
+        "sha256_in_prefix": "8efd9817ffdbb1e9254f739613396a279a84db8738696779178af44d38cead64",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/2/a/a/util.py",
+        "path_type": "hardlink",
+        "sha256": "b4cca9e87cf330ccc9adb7a82823125c03d70aca1793591d3d6d5cac0a5acb35",
+        "sha256_in_prefix": "b4cca9e87cf330ccc9adb7a82823125c03d70aca1793591d3d6d5cac0a5acb35",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/2/b/a/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8efd9817ffdbb1e9254f739613396a279a84db8738696779178af44d38cead64",
+        "sha256_in_prefix": "8efd9817ffdbb1e9254f739613396a279a84db8738696779178af44d38cead64",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/2/b/a/main.py",
+        "path_type": "hardlink",
+        "sha256": "542fcb75eaa7503ba94b293eb847f7184c2ded699dfa738c99cdc3d1f37ce96f",
+        "sha256_in_prefix": "542fcb75eaa7503ba94b293eb847f7184c2ded699dfa738c99cdc3d1f37ce96f",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/3/a/a/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1be778dfcbcfc7b9bf92ce5ef574ed337bbb2c344ee5d492ba489bba45a6c8f3",
+        "sha256_in_prefix": "1be778dfcbcfc7b9bf92ce5ef574ed337bbb2c344ee5d492ba489bba45a6c8f3",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/3/a/a/util.py",
+        "path_type": "hardlink",
+        "sha256": "b4cca9e87cf330ccc9adb7a82823125c03d70aca1793591d3d6d5cac0a5acb35",
+        "sha256_in_prefix": "b4cca9e87cf330ccc9adb7a82823125c03d70aca1793591d3d6d5cac0a5acb35",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/3/b/a/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1be778dfcbcfc7b9bf92ce5ef574ed337bbb2c344ee5d492ba489bba45a6c8f3",
+        "sha256_in_prefix": "1be778dfcbcfc7b9bf92ce5ef574ed337bbb2c344ee5d492ba489bba45a6c8f3",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_namespace/3/b/a/main.py",
+        "path_type": "hardlink",
+        "sha256": "542fcb75eaa7503ba94b293eb847f7184c2ded699dfa738c99cdc3d1f37ce96f",
+        "sha256_in_prefix": "542fcb75eaa7503ba94b293eb847f7184c2ded699dfa738c99cdc3d1f37ce96f",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_private/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_private/_private.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_private/module.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_reST_include/_include_me.py",
+        "path_type": "hardlink",
+        "sha256": "061d44883dfa2cfa1b89976c31c9e54c8553ac614e886c846aacd27e14805425",
+        "sha256_in_prefix": "061d44883dfa2cfa1b89976c31c9e54c8553ac614e886c846aacd27e14805425",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_reST_include/test.py",
+        "path_type": "hardlink",
+        "sha256": "9c1d2e2590b584e1309b900190284e29b03dd831cbbaeb960148cc53144652ae",
+        "sha256_in_prefix": "9c1d2e2590b584e1309b900190284e29b03dd831cbbaeb960148cc53144652ae",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_relative_import/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "05e5f5c77aff88091a9ce295e13b16e18f8661c70ad3d57802d490e903de8431",
+        "sha256_in_prefix": "05e5f5c77aff88091a9ce295e13b16e18f8661c70ad3d57802d490e903de8431",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_relative_import/foo.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_resolve_typing_forwardrefs/evaluated.py",
+        "path_type": "hardlink",
+        "sha256": "96e9578f7c52a213ae5f956f2083d25657f6e9c042c20348c34ad2495e683091",
+        "sha256_in_prefix": "96e9578f7c52a213ae5f956f2083d25657f6e9c042c20348c34ad2495e683091",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_resolve_typing_forwardrefs/postponed.py",
+        "path_type": "hardlink",
+        "sha256": "b83fb964979ae45a66f5f9a13552128c9a0aff835f168de2de03c24e6560dfec",
+        "sha256_in_prefix": "b83fb964979ae45a66f5f9a13552128c9a0aff835f168de2de03c24e6560dfec",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_skip_errors/unimportable.py",
+        "path_type": "hardlink",
+        "sha256": "ac2ef9e3dc139138fe7da9d1ca02b12be73e98d53e757840f82cd2c6fb2f75d4",
+        "sha256_in_prefix": "ac2ef9e3dc139138fe7da9d1ca02b12be73e98d53e757840f82cd2c6fb2f75d4",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_test_linking/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "591fb5030faf51eb3af52344082239368b36ff002024d22bdbbf7cdb6a1c54ad",
+        "sha256_in_prefix": "591fb5030faf51eb3af52344082239368b36ff002024d22bdbbf7cdb6a1c54ad",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_test_linking/a.py",
+        "path_type": "hardlink",
+        "sha256": "05095614f3ed6fc25f60f899f4da1103de6bf127f6d265b7686f393c978f0b62",
+        "sha256_in_prefix": "05095614f3ed6fc25f60f899f4da1103de6bf127f6d265b7686f393c978f0b62",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_test_linking/b/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "940d8f103e2d73cbb0570e7ed5f3790c4802c40587760865c01f15285aeb0949",
+        "sha256_in_prefix": "940d8f103e2d73cbb0570e7ed5f3790c4802c40587760865c01f15285aeb0949",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/_test_linking/b/c.py",
+        "path_type": "hardlink",
+        "sha256": "170fb38b5343200d843286fe16480fae8998471103bd5c2726f00ac93d8e7d5c",
+        "sha256_in_prefix": "170fb38b5343200d843286fe16480fae8998471103bd5c2726f00ac93d8e7d5c",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/index.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/module.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/subpkg/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/subpkg/_private.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/subpkg2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/subpkg2/_private.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/example_pkg/subpkg2/module.py",
+        "path_type": "hardlink",
+        "sha256": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "sha256_in_prefix": "c411fd4d43a758b2e17c6202b2b94ff946b02a3de8638b8c40277fc9c780d52a",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/pdoc/test/html.mako",
+        "path_type": "hardlink",
+        "sha256": "a7f792e08176ece00b92f704718f78a79e4d104b2ae08f71e8b86ce846e458af",
+        "sha256_in_prefix": "a7f792e08176ece00b92f704718f78a79e4d104b2ae08f71e8b86ce846e458af",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/pdoc3-0.9.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pdoc3-0.9.2.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "sha256_in_prefix": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "size_in_bytes": 34523
+      },
+      {
+        "_path": "site-packages/pdoc3-0.9.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c8be3984f04d602ba67aab6e12a1b9b11df80a65e36af8fba084c659c21d0223",
+        "sha256_in_prefix": "c8be3984f04d602ba67aab6e12a1b9b11df80a65e36af8fba084c659c21d0223",
+        "size_in_bytes": 3990
+      },
+      {
+        "_path": "site-packages/pdoc3-0.9.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a9d9479e8d04f01e69bc4e155f8061e23a792c6d2a27f0f87c0b01a602a0dc9c",
+        "sha256_in_prefix": "a9d9479e8d04f01e69bc4e155f8061e23a792c6d2a27f0f87c0b01a602a0dc9c",
+        "size_in_bytes": 9153
+      },
+      {
+        "_path": "site-packages/pdoc3-0.9.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pdoc3-0.9.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pdoc3-0.9.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a34da65ae8abdb3c7a7377f0eee9b29c825dc5bb667e3636004e36d829548085",
+        "sha256_in_prefix": "a34da65ae8abdb3c7a7377f0eee9b29c825dc5bb667e3636004e36d829548085",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/pdoc3-0.9.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "60959a374a34f6edc37eeb02ae6267f61ea20f79e298a86d250bc856beff572c",
+        "sha256_in_prefix": "60959a374a34f6edc37eeb02ae6267f61ea20f79e298a86d250bc856beff572c",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "site-packages/pdoc3-0.9.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6647dae83acab15a4fdcf867542a91d3dcec4a362cb55fdaf90802a49881bf78",
+        "sha256_in_prefix": "6647dae83acab15a4fdcf867542a91d3dcec4a362cb55fdaf90802a49881bf78",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/test_mod/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f5fd2b24b0c0d9e17f523202306e55e7219ac664074d9aa3097c703d09d054b2",
+        "sha256_in_prefix": "f5fd2b24b0c0d9e17f523202306e55e7219ac664074d9aa3097c703d09d054b2",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/test_mod/a.py",
+        "path_type": "hardlink",
+        "sha256": "4c3d8c8542f115216b7ae955631cb84944c97dc17bcdbefcb68dbc9ddb0752fb",
+        "sha256_in_prefix": "4c3d8c8542f115216b7ae955631cb84944c97dc17bcdbefcb68dbc9ddb0752fb",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/__pycache__/__main__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/__pycache__/_version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/__pycache__/cli.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/__pycache__/html_helpers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/__pycache__/__main__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_exclude_dir/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_exclude_dir/downloaded_modules/__pycache__/foo.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/__pycache__/_imported_once.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/1/a/a/__pycache__/util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/1/b/a/__pycache__/main.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/a/a/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/a/a/__pycache__/util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/b/a/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/2/b/a/__pycache__/main.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/a/a/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/a/a/__pycache__/util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/b/a/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_namespace/3/b/a/__pycache__/main.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_private/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_private/__pycache__/_private.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_private/__pycache__/module.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_reST_include/__pycache__/_include_me.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_reST_include/__pycache__/test.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_relative_import/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_relative_import/__pycache__/foo.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_resolve_typing_forwardrefs/__pycache__/evaluated.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_resolve_typing_forwardrefs/__pycache__/postponed.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_skip_errors/__pycache__/unimportable.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_test_linking/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_test_linking/__pycache__/a.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_test_linking/b/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/_test_linking/b/__pycache__/c.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/__pycache__/index.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/__pycache__/module.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/subpkg/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/subpkg/__pycache__/_private.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/subpkg2/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/subpkg2/__pycache__/_private.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pdoc/test/example_pkg/subpkg2/__pycache__/module.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/test_mod/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/test_mod/__pycache__/a.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/pdoc-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/pdoc3-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/pdoc.exe",
+        "path_type": "windows_python_entry_point_exe"
+      },
+      {
+        "_path": "Scripts/pdoc3.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pdoc3",
+  "sha256": "0c839124218649fe8568d53cd0bd5041d305cf456c210f65b537dff8f058561d",
+  "size": 77713,
+  "subdir": "noarch",
+  "timestamp": 1606517364556,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pdoc3-0.9.2-pyhd3eb1b0_0.conda",
+  "version": "0.9.2"
+}
