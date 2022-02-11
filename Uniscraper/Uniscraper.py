@@ -17,6 +17,8 @@ from pdfminer.pdfpage import PDFPage
 import docx
 from pptx import Presentation
 
+
+## Looks good **thumbs up emoji here**
 options = Options()
 options.add_argument('--headless')
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
