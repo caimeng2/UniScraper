@@ -16,6 +16,15 @@ Set up a conda environment by running the following command:
 
     conda activate ./envs
 
+## Installing the environment to jupyter notebook
+
+   conda install -c anaconda ipykernel
+   python -m ipykernel install --user --name=envs
+   
+   https://moonbooks.org/Articles/How-to-use-a-specific-python-conda-environment-in-a-Jupyter-notebook-/   
+   
+   Also need to install nltk
+
 ## Dependency
 
 `bs4` `webdriver_manager` `pandas` `selenium` `nltk` `requests` `python-docx` `python-pptx`  `pdfminer`
@@ -23,3 +32,9 @@ Set up a conda environment by running the following command:
 ## Example usage
 
 Please run `example.ipynb` to see example usage.
+
+In the top cell of the notebook, run the follwing:
+        
+        import nltk
+        
+        nltk.download('words')
