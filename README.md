@@ -23,9 +23,3 @@ Set up a conda environment by running the following command:
 ## Example usage
 
 Please run `example.ipynb` to see example usage.
-
-In the top cell of the notebook, run the follwing:
-        
-        import nltk
-        
-        nltk.download('words')
