@@ -17,6 +17,8 @@ from pdfminer.pdfpage import PDFPage
 import docx
 from pptx import Presentation
 
+
+## Looks good **thumbs up emoji here**
 options = Options()
 options.add_argument('--headless')
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
@@ -145,3 +147,7 @@ class uniscraper():
         """Search text for a keyword"""
         self.para = paragraph_from_text(self.text, string)
         return self.para
+
+    def highlight_search(self, string):
+        """Search text for a keyword"""
+        print((f"\033[91m" + string + f"\033[0m").join(self.text.split(string)))
