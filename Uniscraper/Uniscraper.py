@@ -6,7 +6,6 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
-import nltk
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
@@ -18,7 +17,6 @@ import docx
 from pptx import Presentation
 
 
-## Looks good **thumbs up emoji here**
 options = Options()
 options.add_argument('--headless')
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
@@ -108,12 +106,6 @@ def text_from_url(url):
         text = ""
     return text
 
-def remove_non_eng(text):
-    """A helper funtion to remove non-english text"""
-    words = set(nltk.corpus.words.words())
-    english = " ".join(w for w in nltk.wordpunct_tokenize(text) if w.lower() in words or not w.isalpha())
-    return english
-
 def paragraph_from_text(text, search_string):
     """Get paragraphs containing a keyword with its context"""
     split_text = text.lower().split("\n\n")
@@ -141,13 +133,10 @@ class uniscraper():
     def __init__(self, url):
         self.url = url
         self.text = text_from_url(url)
-        self.english = remove_non_eng(self.text)
         self.para = None
     def search(self, string):
         """Search text for a keyword"""
         self.para = paragraph_from_text(self.text, string)
-        return self.para
-
-    def highlight_search(self, string):
-        """Search text for a keyword"""
-        print((f"\033[91m" + string + f"\033[0m").join(self.text.split(string)))
+        print((f"\033[93m" + string + f"\033[0m").join(self.text.split(string)))
+        #return self.para
+ 
