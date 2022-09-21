@@ -1,0 +1,46 @@
+{
+  "build": "default_h5c34c98_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\ysman\\anaconda3\\pkgs\\libclang-11.1.0-default_h5c34c98_1",
+  "features": "",
+  "files": [
+    "Library/bin/libclang.dll",
+    ".nonadmin"
+  ],
+  "fn": "libclang-11.1.0-default_h5c34c98_1.tar.bz2",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\Users\\ysman\\anaconda3\\pkgs\\libclang-11.1.0-default_h5c34c98_1",
+    "type": 1
+  },
+  "md5": "258e65af4d34033eaa9341b8dd15c7e5",
+  "name": "libclang",
+  "package_tarball_full_path": "C:\\Users\\ysman\\anaconda3\\pkgs\\libclang-11.1.0-default_h5c34c98_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libclang.dll",
+        "path_type": "hardlink",
+        "sha256": "1601cbadbf03d2a7831a683cdbce0768b22f485d07e1084a2a47c894376c2632",
+        "sha256_in_prefix": "1601cbadbf03d2a7831a683cdbce0768b22f485d07e1084a2a47c894376c2632",
+        "size_in_bytes": 68542464
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "52bfd80f3d5600191f29a5a1d05ba7e18b8680b70d45e37454372a4337a3e028",
+  "size": 21861904,
+  "subdir": "win-64",
+  "timestamp": 1620644992391,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libclang-11.1.0-default_h5c34c98_1.tar.bz2",
+  "version": "11.1.0"
+}

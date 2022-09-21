@@ -1,0 +1,105 @@
+{
+  "build": "h8ffe710_1013",
+  "build_number": 1013,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libzlib 1.2.11 h8ffe710_1013",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\ysman\\anaconda3\\pkgs\\zlib-1.2.11-h8ffe710_1013",
+  "features": "",
+  "files": [
+    "Library/include/zconf.h",
+    "Library/include/zlib.h",
+    "Library/lib/z.lib",
+    "Library/lib/zdll.lib",
+    "Library/lib/zlib.lib",
+    "Library/lib/zlibstatic.lib",
+    "Library/share/man/man3/zlib.3",
+    "Library/share/pkgconfig/zlib.pc",
+    ".nonadmin"
+  ],
+  "fn": "zlib-1.2.11-h8ffe710_1013.tar.bz2",
+  "license": "Zlib",
+  "license_family": "Other",
+  "link": {
+    "source": "C:\\Users\\ysman\\anaconda3\\pkgs\\zlib-1.2.11-h8ffe710_1013",
+    "type": 1
+  },
+  "md5": "866517df4fd8bb813bc20c24cf7b8f05",
+  "name": "zlib",
+  "package_tarball_full_path": "C:\\Users\\ysman\\anaconda3\\pkgs\\zlib-1.2.11-h8ffe710_1013.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/include/zconf.h",
+        "path_type": "hardlink",
+        "sha256": "7f4e7f02c4c1b7ef830a8b4331e1ba04f34e97f2c0dcdd81f967ff16fd5ee6d0",
+        "sha256_in_prefix": "7f4e7f02c4c1b7ef830a8b4331e1ba04f34e97f2c0dcdd81f967ff16fd5ee6d0",
+        "size_in_bytes": 16885
+      },
+      {
+        "_path": "Library/include/zlib.h",
+        "path_type": "hardlink",
+        "sha256": "4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8",
+        "sha256_in_prefix": "4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8",
+        "size_in_bytes": 96239
+      },
+      {
+        "_path": "Library/lib/z.lib",
+        "path_type": "hardlink",
+        "sha256": "9abf9713e4a2c02d4aa9f17ca2393535674e69d812c8b10ffe91dd5d13fd2190",
+        "sha256_in_prefix": "9abf9713e4a2c02d4aa9f17ca2393535674e69d812c8b10ffe91dd5d13fd2190",
+        "size_in_bytes": 16228
+      },
+      {
+        "_path": "Library/lib/zdll.lib",
+        "path_type": "hardlink",
+        "sha256": "9abf9713e4a2c02d4aa9f17ca2393535674e69d812c8b10ffe91dd5d13fd2190",
+        "sha256_in_prefix": "9abf9713e4a2c02d4aa9f17ca2393535674e69d812c8b10ffe91dd5d13fd2190",
+        "size_in_bytes": 16228
+      },
+      {
+        "_path": "Library/lib/zlib.lib",
+        "path_type": "hardlink",
+        "sha256": "9abf9713e4a2c02d4aa9f17ca2393535674e69d812c8b10ffe91dd5d13fd2190",
+        "sha256_in_prefix": "9abf9713e4a2c02d4aa9f17ca2393535674e69d812c8b10ffe91dd5d13fd2190",
+        "size_in_bytes": 16228
+      },
+      {
+        "_path": "Library/lib/zlibstatic.lib",
+        "path_type": "hardlink",
+        "sha256": "d4366ce8d76d8a965356fc2e36699ec4de1d55f0f92a61dde1c7ef583c5b9cea",
+        "sha256_in_prefix": "d4366ce8d76d8a965356fc2e36699ec4de1d55f0f92a61dde1c7ef583c5b9cea",
+        "size_in_bytes": 181600
+      },
+      {
+        "_path": "Library/share/man/man3/zlib.3",
+        "path_type": "hardlink",
+        "sha256": "5abef003e545566e5599e5ab2e7528e978be59d54546b19d763d062f7a69bac7",
+        "sha256_in_prefix": "5abef003e545566e5599e5ab2e7528e978be59d54546b19d763d062f7a69bac7",
+        "size_in_bytes": 4477
+      },
+      {
+        "_path": "Library/share/pkgconfig/zlib.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "D:/bld/zlib-split_1633226761736/_h_env",
+        "sha256": "3dfd95238bee75b9056174e31a0558890079b735bed4f631aeba15ef929f640d",
+        "sha256_in_prefix": "4926b091dba04e68ffbbf545fc8d1514535cd63ffa5c9b9159149cfae192c161",
+        "size_in_bytes": 455
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5b5db5ec4c2eb51a2bb8c5e22df9938703fd292da8a41c1e8355d5972f9fe12c",
+  "size": 108435,
+  "subdir": "win-64",
+  "timestamp": 1633227254149,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/zlib-1.2.11-h8ffe710_1013.tar.bz2",
+  "version": "1.2.11"
+}

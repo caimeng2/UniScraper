@@ -1,0 +1,50 @@
+{
+  "build": "h5b45459_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\ysman\\anaconda3\\pkgs\\ca-certificates-2021.10.8-h5b45459_0",
+  "features": "",
+  "files": [
+    "Library/ssl/cacert.pem",
+    "Library/ssl/cert.pem",
+    ".nonadmin"
+  ],
+  "fn": "ca-certificates-2021.10.8-h5b45459_0.tar.bz2",
+  "license": "ISC",
+  "link": {
+    "source": "C:\\Users\\ysman\\anaconda3\\pkgs\\ca-certificates-2021.10.8-h5b45459_0",
+    "type": 1
+  },
+  "md5": "2ddd48c9b52f7f65361b9645b2c5d370",
+  "name": "ca-certificates",
+  "package_tarball_full_path": "C:\\Users\\ysman\\anaconda3\\pkgs\\ca-certificates-2021.10.8-h5b45459_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/ssl/cacert.pem",
+        "path_type": "hardlink",
+        "sha256": "fa883829ebb8cd2a602f9b21c1f85de24cf47949d520bceb1828b4cd1cb6906c",
+        "sha256_in_prefix": "fa883829ebb8cd2a602f9b21c1f85de24cf47949d520bceb1828b4cd1cb6906c",
+        "size_in_bytes": 265969
+      },
+      {
+        "_path": "Library/ssl/cert.pem",
+        "path_type": "hardlink",
+        "sha256": "fa883829ebb8cd2a602f9b21c1f85de24cf47949d520bceb1828b4cd1cb6906c",
+        "sha256_in_prefix": "fa883829ebb8cd2a602f9b21c1f85de24cf47949d520bceb1828b4cd1cb6906c",
+        "size_in_bytes": 265969
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5885d65c1861fe0575982fd431f9e7dd4ab54f574844e7ac1072c5da8a42a1fc",
+  "size": 179782,
+  "subdir": "win-64",
+  "timestamp": 1633733356356,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/ca-certificates-2021.10.8-h5b45459_0.tar.bz2",
+  "version": "2021.10.8"
+}
