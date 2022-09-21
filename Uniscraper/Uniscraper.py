@@ -147,3 +147,7 @@ class uniscraper():
         """Search text for a keyword"""
         self.para = paragraph_from_text(self.text, string)
         return self.para
+
+    def highlight_search(self, string):
+        """Search text for a keyword"""
+        print((f"\033[91m" + string + f"\033[0m").join(self.text.split(string)))
