@@ -15,11 +15,15 @@ from pdfminer.converter import TextConverter
 from pdfminer.pdfpage import PDFPage
 import docx
 from pptx import Presentation
-
+from selenium.webdriver.chrome.service import Service
+import platform
 
 options = Options()
 options.add_argument('--headless')
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+if platform.system() == 'Linux':
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 def tag_visible(element):
     """A helper function to filter visible tags"""
